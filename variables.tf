@@ -30,4 +30,5 @@ variable "redirect_to_https" {
   description = "If true, automatically redirect all traffic to use TLS encryption"
   type        = bool
   nullable    = false
+  default     = true
 }
